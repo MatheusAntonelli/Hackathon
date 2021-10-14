@@ -95,6 +95,7 @@ The entire website css will be in App.css
   background-color: #fff;
   color: #32cd32;
   border: 1px solid #fff;
+  border-radius: 10px;
 }
 
 .btn-outline {
@@ -117,7 +118,7 @@ The entire website css will be in App.css
 
 .btn-large:hover, .btn-medium:hover {
   transition: all 0.4s ease-out;
-  background: #fff;
+  background: rgb(180, 192, 181, 0.7);
   color: #32cd32;
   transition: 250ms;
 }
