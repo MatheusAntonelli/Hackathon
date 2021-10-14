@@ -12,7 +12,7 @@ function MainSection() {
                 <AnchorLink href='#feature'>
                 <Button className="btn"
                 buttonSize='btn-large'
-                buttonStyle='btn-outline'
+                buttonStyle='btn-primary'
                 >
                     DESCUBRA AS OPORTUNIDADES
                 </Button>

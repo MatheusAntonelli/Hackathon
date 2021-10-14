@@ -12,7 +12,7 @@ function routes() {
           <Route path='/' exact component={Home}/>
           <Route path='/login' exact component={Login}/>
           <Route path='/cadastro' exact component={Cadastro}/>
-          <Route path='/confirm-email' exact component={EmailConfirmation}/> 
+ 
         </Switch>
       </Router>
         </>

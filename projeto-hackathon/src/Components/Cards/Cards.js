@@ -23,6 +23,12 @@ function Cards() {
               label='Engenharia'
               path='/jobs'
             />
+            <CardItem
+              src='images/job.jpg'
+              text='Engenheiro Mecanico Junior'
+              label='Engenharia'
+              path='/jobs'
+            />
           </ul>
           <ul className='cards__items'>
             <CardItem
