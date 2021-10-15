@@ -16,20 +16,20 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Jobber
-            <i class='fab fa-typo3' />
+            <img src="./images/lgs.png"  alt="" srcset="" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/empregos' className='nav-links' onClick={closeMobileMenu}>
                 Empregos
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/Empregos'
+                to='/empregos'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -42,7 +42,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Completar
+                Perfil
               </Link>
             </li>
             
