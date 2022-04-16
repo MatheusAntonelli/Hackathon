@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import {Button} from '../Button/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
 const PESSOA = ['Fisica', 'Juridica'];
 export const Form = ({
@@ -9,8 +8,7 @@ export const Form = ({
     onClick,
     children,
 }) => {
-    const checkPessoa = PESSOA.includes(type) ? type : PESSOA[0];
-    var person = {fisica: "CPF", juridica: "CNPJ"};
+   
     return(
         <div>
             
