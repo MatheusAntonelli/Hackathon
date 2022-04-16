@@ -52,32 +52,32 @@ function Cadastro(props) {
 function Login(props) {
     return (
         <section className='main-login'>
-        <div className='center'>
-            <h1>Login</h1>
-            <form method='post'>
-                <div className='text'>
-                    <input type="text" required/>
-                    <span></span>
-                    <label >Email</label>
+            <div className='center'>
+                <h1>Login</h1>
+                <form method='post'>
+                    <div className='text'>
+                        <input type="text" required/>
+                        <span></span>
+                        <label >Email</label>
+                    </div>
+                    <div className='text'>
+                        <input type="password" required/>
+                        <span></span>
+                        <label >Senha</label>
+                    </div>   
+                    <div class="pass">Esqueceu sua senha?</div>
+                        <input type="submit" value="Login"/>
+                        <div class="signup_link">
+                        <Link
+                        to='/cadastro'
+                        className=''
+                        onClick={props.onclick}
+                        >
+                            Cadastrar
+                        </Link>
+                    </div>             
+                </form>
                 </div>
-                <div className='text'>
-                    <input type="password" required/>
-                    <span></span>
-                    <label >Senha</label>
-                </div>   
-                <div class="pass">Esqueceu sua senha?</div>
-                    <input type="submit" value="Login"/>
-                    <div class="signup_link">
-                    <Link
-                    to='/cadastro'
-                    className=''
-                    onClick={props.onclick}
-                    >
-                        Cadastrar
-                    </Link>
-                </div>             
-            </form>
-            </div>
             
         </section>
     )

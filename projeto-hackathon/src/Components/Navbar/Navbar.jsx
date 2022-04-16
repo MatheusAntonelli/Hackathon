@@ -14,13 +14,10 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Jobber
-            <img src="./images/lgs.png"  alt="" srcset="" />
-          </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
+            <h1>Jobber</h1>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/empregos' className='nav-links' onClick={closeMobileMenu}>
@@ -29,7 +26,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/empregos'
+                to='/freelancer'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -38,7 +35,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/empregos'
+                to='/perfil'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
